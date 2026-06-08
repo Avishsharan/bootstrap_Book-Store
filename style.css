@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0px;
+    object-fit:cover;
+}
+.carousel img{
+    height:92vh;
+    object-fit: fill;
+}
+.card-img-top{
+    height:60vh;
+}
+.categories-list{
+display: flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+list-style:none;
+}
+.card-image-top{
+    object-fit: fill;
+    height:auto;
+}

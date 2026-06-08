@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbXCpiYKfm11YUjU715AE4xto0XO6fzBiL8Q&s"
+    type="image/x-icon">
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://m.media-amazon.com/images/I/21sv5Z2fcNL._AC_UF1000,1000_QL80_.jpg" alt="Logo" width="30"
+          height="24" class="d-inline-block align-text-top">
+        Book Store
+      </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#categories">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#books">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Book Type
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#lovestory">Love story</a></li>
+              <li><a class="dropdown-item" href="#crimestory">Crime stroy</a></li>
+              <li><a class="dropdown-item" href="#fairytale">Fairy tale </a></li>
+              <li><a class="dropdown-item" href="#horrorbooks">Horror</a></li>
+              <li><a class="dropdown-item" href="#fantasybooks">Fantasy</a></li>
+              <li><a class="dropdown-item" href="#sciencebooks">Science fiction</a></li>
+              <li><a class="dropdown-item" href="#classicbooks">Classic</a></li>
+              <li><a class="dropdown-item" href="#thrillerbooks">Thriller</a></li>
+
+
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner hw">
+      <div class="carousel-item active">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5e7275120157e10f58ad3274/a85f6bc5-0992-44f9-b2b2-1d2d5a17fbd8/Back+To+School+Sale+Round-Up+%282%29.jpg"
+          class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://t3.ftcdn.net/jpg/07/75/38/62/360_F_775386204_jU10LwacTIdlNWEcOuGtBlJ7dNzUJLxb.jpg"
+          class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://wallpaperaccess.com/full/1543375.jpg" class="d-block w-100 " alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="container">
+    <center>
+      <h1 class="mt-5" id="gallery">Gallery</h1>
+    </center>
+    <marquee behavior="" direction="">
+      <div class="d-flex gap-4 mt-5">
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="lovestorybooks.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Love Story Books</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="classical.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Classical Books.</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="crime.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Crime Story Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="Thriller.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Thriller Story Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="fantasy_book.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text text-center">Fantasy Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="fairytalebook.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Fairy Tale Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="horrorstorybooks.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Horror Story Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="sci-fi.png" class="card-image-top" alt="...">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Science Fiction Books</p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </marquee>
+  </div>
+
+
+  <!-- Categories -->
+  <center>
+    <h1 class="mt-5" id="categories">Categories</h1>
+  </center>
+  <div class="categories-list mt-5">
+    <li><a href="#lovestory" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Love Story</button></a></li>
+    <li><a href="#crimestory" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Crime Story</button></a></li>
+    <li><a href="#fairytale" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Fairy tale</button></a></li>
+    <li><a href="#horrorbooks" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Horror</button></a></li>
+    <li><a href="#fantasybooks" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Fantasy</button></a></li>
+    <li><a href="#sciencebooks" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Science Fiction</button></a></li>
+    <li><a href="#classicbooks" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Classic</button></a></li>
+    <li><a href="#thrillerbooks" class="text-dark text-decoration-none fw-bold"><button type="button"
+          class="btn btn-outline-dark">Thriller</button></a></li>
+
+  </div>
+
+  <!-- ========== Book Items ========== -->
+  <section class="container book-items mt-4 text-dark" id="books">
+    <h1 class="text-center mt-5">Book Items</h1>
+
+    <!-- ===== Love Story Books ===== -->
+    <div class="mt-4">
+      <h3 id="lovestory">Love Story Books</h3>
+      <div class="row py-4">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQoDKyLEzgtwRBQQGenaKvI_Qxw1l2iDeYA&s" class="card-img-top" alt="I Too had a Love Story">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold mt-2">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">I Too had a Love Story</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ls1">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ls1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://m.media-amazon.com/images/I/81GJLCL1F2L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="Love Story from the heart">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">Love Story from the heart</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ls2">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ls2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://m.media-amazon.com/images/I/81AHOIlJW6L._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Love or Obsession">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">Love or Obsession</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ls3">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ls3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://i.pinimg.com/736x/80/70/4c/80704c91ca89ca958e4ed0ae777a57df.jpg" class="card-img-top" alt="Lovers by the Sea">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">Lovers by the Sea</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ls4">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ls4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div><!-- end row -->
+    </div><!-- end Love Story section -->
+
+    <!-- ===== Crime Story Books ===== -->
+    <div class="mt-4">
+      <h3 id="crimestory">Crime Story Books</h3>
+      <div class="row py-4">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjKJsxELDQiqzrvdv3gV5GKjA6tV8hJuJZlg&s" class="card-img-top" alt="50 Greatest Crime Stories">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">50 Greatest Crime Stories</h5>
+              <p class="card-text">Fifty greatest crime stories featuring mystery, suspense, detectives, and justice.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cs1">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cs1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtDfMlvb-9mDLHJsZtJhIRa8oHne1J-W0ZQ&s" class="card-img-top" alt="Murder Mystery">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">Murder Mystery</h5>
+              <p class="card-text">Twisted clues, hidden secrets, shocking murders, and unexpected revelations await.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cs2">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cs2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://c8.alamy.com/comp/2JPF4WC/a-classic-english-crime-short-stories-collection-edited-by-tim-heald-2JPF4WC.jpg" class="card-img-top" alt="A Classic English Crime">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">A Classic English Crime</h5>
+              <p class="card-text">Classic English crime tales featuring mystery, suspense, intrigue, and justice.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cs3">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cs3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://media.istockphoto.com/id/1344027184/vector/crime-city.jpg?s=612x612&w=0&k=20&c=RPrqn3r3HegZenwdnL-mwYlsRAan-kyX6zgI_B6cwpQ=" class="card-img-top" alt="Crime City">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between">
+                <p class="text-danger fw-bold"><del>Price:₹550</del></p>
+                <p class="text-success fw-bold">Discount price:₹330</p>
+              </div>
+              <h5 class="card-title text-center">Crime City</h5>
+              <p class="card-text">Dark city streets conceal crimes, secrets, mysteries, and danger.</p>
+              <div class="text-center mt-auto">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cs4">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cs4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div><!-- end row -->
+    </div><!-- end Crime section -->
+
+    <!-- ===== Fairy Tales Books ===== -->
+    <div class="mt-4">
+      <h3 id="fairytale">Fairy Tales Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyhnzXlhpdrSYh855XR5RTigzEzSc8NgD8Q&s" class="card-img-top" alt="A First Book of Fairy Tales">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">A First Book of Fairy Tales</h5>
+              <p class="card-text">Magical fairy tales introduce wonder, adventure, friendship, dreams, and imagination.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ft1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ft1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZXCbI7PlcyTYuPJG3S6RjxBFV77mlKySsw&s" class="card-img-top" alt="108 Fairy Tales">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">108 Fairy Tales</h5>
+              <p class="card-text">One hundred eight magical fairy tales filled with wonder and adventure.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ft2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ft2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOl0BO1lGfcsQsE9Gg2a6pGYKxuiTgvrzF-A&s" class="card-img-top" alt="Golden Book of Fairy Tales">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Golden Book of Fairy Tales</h5>
+              <p class="card-text">Golden fairy tales bring magic, wonder, adventure, dreams, and joy.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ft3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ft3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcj0XU3FLCL0od9X55M8nJ2x8817-4SKzMrg&s" class="card-img-top" alt="My Big Book of Fairy Tales">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">My Big Book of Fairy Tales</h5>
+              <p class="card-text">My big book of fairy tales offers magic, wonder, and adventure.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-ft4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-ft4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+    <!-- ===== Horror Books ===== -->
+    <div class="mt-4">
+      <h3 id="horrorbooks">Horror Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD05QT7cXD6ifVHcuhvDq_lFkw0Rw0PehTeA&s" class="card-img-top" alt="Horrors of the Night">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Horrors of the Night</h5>
+              <p class="card-text">Terrifying horrors emerge at night, bringing fear, mystery, and suspense.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-hor1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-hor1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7WAxCWLucNBHDTIAMaOxTp35qGpNs3VeJw&s" class="card-img-top" alt="Night of Terrors">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Night of Terrors (Part one)</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-hor2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-hor2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTOLPAS0HKvlebPf7-W7x1vWurED-5mkjyw&s" class="card-img-top" alt="Stephen King">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Stephen King</h5>
+              <p class="card-text">A terrifying night unfolds with horrors, fear, darkness, and suspense.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-hor3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-hor3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1f3J9iQFoDLQsHRmiRf-wMyXB_N2X6hg-sg&s" class="card-img-top" alt="Midnight">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Midnight</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-hor4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-hor4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+    <!-- ===== Fantasy Books ===== -->
+    <div class="mt-4">
+      <h3 id="fantasybooks">Fantasy Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://m.media-amazon.com/images/I/91Ln4H-QKkL._UF1000,1000_QL80_.jpg" class="card-img-top" alt="Lost Magic">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Lost Magic</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-fan1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-fan1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzRtSFsYx4pEoRf73vmk9bLAu5ibMxwuobg&s" class="card-img-top" alt="The Chronicles of Narnia">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Chronicles of Narnia</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-fan2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-fan2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREhz1ZLG-1gznwiYzP2kkvV6NC5eJit0OpGg&s" class="card-img-top" alt="The Whitepipes">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Whitepipes</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-fan3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-fan3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5J6mLeU3ISGF6h166P_nsLa5csSOBDRdufw&s" class="card-img-top" alt="Ghost Squad">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Ghost Squad</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-fan4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-fan4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+    <!-- ===== Science Fiction Books ===== -->
+    <div class="mt-4">
+      <h3 id="sciencebooks">Science Fiction Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Z3NnxD7XwuJC0jr10aL_PxrWiGn17xyqEg&s" class="card-img-top" alt="Children of Time">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Children of Time</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-sci1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-sci1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrKaDWsDTwrAcjK-JUvbxDpMMvIkyDf7gbA&s" class="card-img-top" alt="Alien Genesis">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Alien Genesis</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-sci2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-sci2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://shereads.com/wp-content/uploads/2021/12/TheSoundofStars_AlechiaDow.jpg" class="card-img-top" alt="Sound of Stars">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Sound of Stars</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-sci3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-sci3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://www.weareteachers.com/wp-content/uploads/electric-kingdom-685x1024.jpg" class="card-img-top" alt="The Electric Kingdom">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Electric Kingdom</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-sci4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-sci4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+    <!-- ===== Classic Books ===== -->
+    <div class="mt-4">
+      <h3 id="classicbooks">Classic Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPaRK5W6sVrOBRAvjOlIWSSn0NKsN-W5o6Q&s" class="card-img-top" alt="To Kill a Mockingbird">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">To Kill a Mockingbird</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cl1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cl1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStnuY7eyIX3VHZ7Bc5s0W4Xfoamd1AIX9OMA&s" class="card-img-top" alt="The Hobbit">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Hobbit</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cl2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cl2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTomNlDNjT4bv70G2poIFOXCZ0JW0SjUj-lnQ&s" class="card-img-top" alt="Jane Eyre">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Jane Eyre</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cl3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cl3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC31m2vU-4IAYkmSM-AyBNM6PtbAZ6vLwh2Q&s" class="card-img-top" alt="Heart of Darkness">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Heart of Darkness</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-cl4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cl4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+    <!-- ===== Thriller Books ===== -->
+    <div class="mt-4">
+      <h3 id="thrillerbooks">Thriller Books</h3>
+      <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://m.media-amazon.com/images/I/71fSQq9M+vL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Only Murder">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">Only Murder</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-th1">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-th1" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHnRBXq6O8c6fnSrZ5WV_bO7RSHRH-RlkGg&s" class="card-img-top" alt="The Silent Patient">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Silent Patient</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-th2">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-th2" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://m.media-amazon.com/images/I/91xiawIfz7L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="His Perfect Crime">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">His Perfect Crime</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-th3">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-th3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 book-card-col">
+          <div class="card border-3 h-100">
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646534743i/60556912._UX160_.jpg" class="card-img-top" alt="The Housemaid">
+            <div class="card-body d-flex flex-column">
+              <p class="text-success fw-bold">40% Offer</p>
+              <div class="d-flex justify-content-between"><p class="text-danger fw-bold"><del>Price:₹550</del></p><p class="text-success fw-bold">Discount price:₹330</p></div>
+              <h5 class="card-title text-center">The Housemaid</h5>
+              <p class="card-text">Not everyone in this world has the fate to cherish the fullest form of love.</p>
+              <div class="text-center mt-auto"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-th4">Buy</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-th4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-4">Buy Book</h1><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form class="w-75 mx-auto"><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Name</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Email Address</label><div class="col-sm-8"><input type="email" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Mobile No</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Delivery Address</label><div class="col-sm-8"><textarea class="form-control" rows="3"></textarea></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">City</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">State</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Pincode</label><div class="col-sm-8"><input type="text" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Quantity</label><div class="col-sm-8"><input type="number" class="form-control"></div></div><div class="row mb-3 align-items-center"><label class="col-sm-4 col-form-label">Payment Method</label><div class="col-sm-8"><select class="form-select"><option selected>Select Payment</option><option>GPay</option><option>Paytm</option><option>Razorpay</option><option>Credit Card</option><option>UPI</option></select></div></div></form></div><div class="modal-footer"><button type="reset" class="btn btn-danger">Clear</button><button type="submit" class="btn btn-success">Confirm Order</button></div></div></div></div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+
+  <!-- Footer Start -->
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5" id="contact">
+    <div class="container">
+      <div class="row">
+
+        <!-- About Bookstore -->
+        <div class="col-md-4 mb-4">
+          <h4>Book Store</h4>
+          <p>
+            Your one-stop destination for books, novels, academic
+            resources, and bestsellers. Discover your next favorite
+            read with us.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="#books" class="text-white text-decoration-none">Books</a></li>
+            <li><a href="#categories" class="text-white text-decoration-none">Categories</a></li>
+            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="col-md-3 mb-4">
+          <h5>Book Categories</h5>
+          <ul class="list-unstyled">
+            <li><a href="#lovestory" class="text-white text-decoration-none">Love Story</a></li>
+            <li><a href="#crimestory" class="text-white text-decoration-none">Crime Story</a></li>
+            <li><a href="#fairytale" class="text-white text-decoration-none">Fairy tale</a></li>
+            <li><a href="#horrorbooks" class="text-white text-decoration-none">Horror</a></li>
+            <li><a href="#fantasybooks" class="text-white text-decoration-none">Fantasy</a></li>
+            <li><a href="#sciencebooks" class="text-white text-decoration-none">Science Fiction</a></li>
+            <li><a href="#classicbooks" class="text-white text-decoration-none">Classic</a></li>
+            <li><a href="#thrillerbooks" class="text-white text-decoration-none">Thriller</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-3 mb-4">
+          <h5>Contact Us</h5>
+          <p>Email: info@bookstore.com</p>
+          <p>Phone: +91 98765 43210</p>
+          <p>Salem, Tamil Nadu</p>
+
+          <!-- Social Icons -->
+          <a href="#" class="text-white me-3">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="text-white me-3">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="text-white me-3">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <hr class="bg-light">
+
+      <div class="text-center">
+        <p class="mb-0">
+          © 2026 Book Store. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
